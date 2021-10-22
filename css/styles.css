@@ -6,7 +6,6 @@ ul.card-list {
   font-weight: 500;
 }
 
-.aboutMe {
+.aboutMe, .projects, .backgroundInfo, .hobbies {
   margin-bottom: 2em;
-
 }
