@@ -9,3 +9,7 @@ ul.card-list {
 .aboutMe, .projects, .backgroundInfo, .hobbies {
   margin-bottom: 2em;
 }
+
+.jobExperience {
+  margin-bottom: 1em;
+}
