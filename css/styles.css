@@ -1,11 +1,12 @@
-.profilepic {
-  width: 300px;
-}
-
 ul.card-list {
   font-style: italic;
 }
 
 .card-text {
   font-weight: 500;
+}
+
+.aboutMe {
+  margin-bottom: 2em;
+
 }
