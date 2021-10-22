@@ -18,3 +18,9 @@ ul.card-list {
   margin-top: 1em;
   font-style: italic;
 }
+
+.hobbies img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
