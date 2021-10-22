@@ -6,10 +6,15 @@ ul.card-list {
   font-weight: 500;
 }
 
-.aboutMe, .projects, .backgroundInfo, .hobbies {
+.aboutMe, .projects, .hobbies {
   margin-bottom: 2em;
 }
 
 .jobExperience {
   margin-bottom: 1em;
+}
+
+.backgroundInfo h3 {
+  margin-top: 1em;
+  font-style: italic;
 }
