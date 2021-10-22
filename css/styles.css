@@ -27,3 +27,11 @@ ul.card-list {
 .navbar {
   margin-bottom: 1em;
 }
+
+.jumbotron {
+  background-color: black;
+  color:white;
+  margin-bottom: 0em;
+  border-bottom-left-radius: 0em;
+  border-bottom-right-radius: 0em;
+}
