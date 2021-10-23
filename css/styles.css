@@ -91,15 +91,19 @@ hr {
   border-top: 2px dashed #a00003;
 }
 
-.btn-red {
-  color: #fff;
+ .btn-red {
+  color: #ffffff;
   background-color: #f1191d;
   border-color: #a00003;
 }
 
-.projects .card a{
-  color: #fff;
+.projects .card .projectButton a {
+  color: #ffffff;
   text-decoration: none;
+}
+
+.projects .card .projectButton a:hover {
+  color: #000000;
 }
 
 
