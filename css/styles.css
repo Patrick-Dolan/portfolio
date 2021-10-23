@@ -45,6 +45,8 @@ ul.card-list {
   margin-bottom: 0em;
   border-bottom-left-radius: 0em;
   border-bottom-right-radius: 0em;
+  padding-top: 5em;
+  padding-bottom: 2em;
 }
 
 a:link {
