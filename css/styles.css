@@ -83,6 +83,14 @@ a:hover {
   margin-top: 5em;
 }
 
+.img-thumbnail {
+  border: 2px solid #f1191d;
+}
+
+hr {
+  border-top: 2px dashed #a00003;
+}
+
 /* Hobbies List group */
 .list-group-item.active {
   color: #fff;
