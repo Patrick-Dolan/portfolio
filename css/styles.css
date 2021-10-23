@@ -66,6 +66,11 @@ a:hover {
   text-decoration: underline;
 }
 
+.projects .card h3  a{
+  color: #ffffffff;
+  text-decoration: underline;
+}
+
 .projects .card a:hover {
   color: #a00003;
 }
