@@ -52,6 +52,7 @@ a:hover {
   color: #f1191d;
   text-decoration: underline;
 }
+
 .projects .card a:hover {
   color: #a00003;
 }
@@ -59,6 +60,10 @@ a:hover {
 /* Hobbies List group */
 .list-group-item.active {
   color: #fff;
-  background-color: #a00003;
-  border-color: #a00003;
+  background-color: #f1191d;
+  border-color: #f1191d;
+}
+
+.education .card-title {
+  color: #f1191d;
 }
