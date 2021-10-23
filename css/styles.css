@@ -35,3 +35,30 @@ ul.card-list {
   border-bottom-left-radius: 0em;
   border-bottom-right-radius: 0em;
 }
+
+a:link {
+  color: #ff2a2d;
+}
+
+a:hover {
+  color: #a00003;
+}
+
+.projects .card {
+  margin-bottom: 2em;
+}
+
+.projects .card  a{
+  color: #f1191d;
+  text-decoration: underline;
+}
+.projects .card a:hover {
+  color: #a00003;
+}
+
+/* Hobbies List group */
+.list-group-item.active {
+  color: #fff;
+  background-color: #a00003;
+  border-color: #a00003;
+}
