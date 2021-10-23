@@ -1,3 +1,13 @@
+.aboutMe img {
+  float: left;
+  width: 300px;
+  margin-right: 1em;
+}
+
+.aboutMe p {
+  padding-left: 1em; 
+}
+
 ul.card-list {
   font-style: italic;
 }
