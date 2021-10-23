@@ -91,6 +91,18 @@ hr {
   border-top: 2px dashed #a00003;
 }
 
+.btn-red {
+  color: #fff;
+  background-color: #f1191d;
+  border-color: #a00003;
+}
+
+.projects .card a{
+  color: #fff;
+  text-decoration: none;
+}
+
+
 /* Hobbies List group */
 .list-group-item.active {
   color: #fff;
