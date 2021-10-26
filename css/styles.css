@@ -1,3 +1,32 @@
+/* General Page Layout & Globals */ 
+.aboutMe, .projects, .hobbies {
+  margin-bottom: 5em;
+}
+.jobExperience {
+  margin-bottom: 1em;
+}
+.hobbies {
+  margin-top: 5em;
+}
+a:link {
+  color: #ff2a2d;
+}
+a:hover {
+  color: #a00003;
+}
+hr {
+  border-top: 2px dashed #a00003;
+}
+.card-text {
+  font-weight: 500;
+}
+.img-thumbnail {
+  border: 2px solid #f1191d;
+}
+/* Top Navbar */
+.navbar {
+  margin-bottom: 1em;
+}
 /* About Me Section */
 .aboutMe img {
   float: left;
@@ -21,37 +50,7 @@
   color: #f1191d;
   font-style: italic;
 }
-ul.card-list {
-  font-style: italic;
-}
-.card-text {
-  font-weight: 500;
-}
-.aboutMe, .projects, .hobbies {
-  margin-bottom: 5em;
-}
-.jobExperience {
-  margin-bottom: 1em;
-}
-.backgroundInfo h3 {
-  margin-top: 1em;
-  font-style: italic;
-  color: #f1191d;
-}
-.hobbies img {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-}
-.navbar {
-  margin-bottom: 1em;
-}
-a:link {
-  color: #ff2a2d;
-}
-a:hover {
-  color: #a00003;
-}
+/* Projects Section */
 .projects .card {
   margin-bottom: 2em;
 }
@@ -66,17 +65,8 @@ a:hover {
 .projects .card a:hover {
   color: #a00003;
 }
-.education .card-title {
-  color: #f1191d;
-}
-.hobbies {
-  margin-top: 5em;
-}
-.img-thumbnail {
-  border: 2px solid #f1191d;
-}
-hr {
-  border-top: 2px dashed #a00003;
+ul.card-list {
+  font-style: italic;
 }
 .btn-red {
   color: #ffffff;
@@ -89,6 +79,20 @@ hr {
 }
 .projects .card .projectButton a:hover {
   color: #000000;
+}
+/* Background Info section */
+.backgroundInfo h3 {
+  margin-top: 1em;
+  font-style: italic;
+  color: #f1191d;
+}
+.hobbies img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.education .card-title {
+  color: #f1191d;
 }
 /* Webpage nav/jumbotron Footers */
 .pageFooter .navbar {
