@@ -3,33 +3,26 @@
   width: 300px;
   margin-right: 1em;
 }
-
 .aboutMe p {
   padding-left: 1em; 
 }
-
 ul.card-list {
   font-style: italic;
 }
-
 .card-text {
   font-weight: 500;
 }
-
 .aboutMe, .projects, .hobbies {
   margin-bottom: 5em;
 }
-
 .jobExperience {
   margin-bottom: 1em;
 }
-
 .backgroundInfo h3 {
   margin-top: 1em;
   font-style: italic;
   color: #f1191d;
 }
-
 .hobbies img {
   display: flex;
   margin-left: auto;
@@ -38,7 +31,6 @@ ul.card-list {
 .navbar {
   margin-bottom: 1em;
 }
-
 .jumbotron {
   background-color: black;
   color:white;
@@ -48,79 +40,62 @@ ul.card-list {
   padding-top: 5em;
   padding-bottom: 2em;
 }
-
 a:link {
   color: #ff2a2d;
 }
-
 a:hover {
   color: #a00003;
 }
-
 .projects .card {
   margin-bottom: 2em;
 }
-
 .projects .card  a{
   color: #f1191d;
   text-decoration: underline;
 }
-
 .projects .card h3  a{
   color: #ffffffff;
   text-decoration: underline;
 }
-
 .projects .card a:hover {
   color: #a00003;
 }
-
 .education .card-title {
   color: #f1191d;
 }
-
 .jumboHeader {
   color: #f1191d;
   font-style: italic;
 }
-
 .hobbies {
   margin-top: 5em;
 }
-
 .img-thumbnail {
   border: 2px solid #f1191d;
 }
-
 hr {
   border-top: 2px dashed #a00003;
 }
-
- .btn-red {
+.btn-red {
   color: #ffffff;
   background-color: #f1191d;
   border-color: #a00003;
 }
-
 .projects .card .projectButton a {
   color: #ffffff;
   text-decoration: none;
 }
-
 .projects .card .projectButton a:hover {
   color: #000000;
 }
-
 .pageFooter .navbar {
   margin-bottom: 0em;
 }
-
 .copyrightFooter p{
   background-color: #000000;
   color: #a7a7a7;
   text-align: center;
 }
-
 .copyrightFooter .jumbotron {
   padding-top: 3em;
   border-top-right-radius: 0em;
@@ -128,7 +103,6 @@ hr {
   border-bottom-left-radius: 0.3rem;
   border-bottom-right-radius: 0.3rem;
 }
-
 /* Hobbies List group */
 .list-group-item.active {
   color: #fff;
