@@ -1,3 +1,4 @@
+/* About Me Section */
 .aboutMe img {
   float: left;
   width: 300px;
@@ -5,6 +6,20 @@
 }
 .aboutMe p {
   padding-left: 1em; 
+}
+/* Jumbotron Changes */
+.jumbotron {
+  background-color: black;
+  color:white;
+  margin-bottom: 0em;
+  border-bottom-left-radius: 0em;
+  border-bottom-right-radius: 0em;
+  padding-top: 5em;
+  padding-bottom: 2em;
+}
+.jumboHeader {
+  color: #f1191d;
+  font-style: italic;
 }
 ul.card-list {
   font-style: italic;
@@ -31,15 +46,6 @@ ul.card-list {
 .navbar {
   margin-bottom: 1em;
 }
-.jumbotron {
-  background-color: black;
-  color:white;
-  margin-bottom: 0em;
-  border-bottom-left-radius: 0em;
-  border-bottom-right-radius: 0em;
-  padding-top: 5em;
-  padding-bottom: 2em;
-}
 a:link {
   color: #ff2a2d;
 }
@@ -63,10 +69,6 @@ a:hover {
 .education .card-title {
   color: #f1191d;
 }
-.jumboHeader {
-  color: #f1191d;
-  font-style: italic;
-}
 .hobbies {
   margin-top: 5em;
 }
@@ -88,6 +90,7 @@ hr {
 .projects .card .projectButton a:hover {
   color: #000000;
 }
+/* Webpage nav/jumbotron Footers */
 .pageFooter .navbar {
   margin-bottom: 0em;
 }
