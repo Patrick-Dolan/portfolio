@@ -116,3 +116,6 @@ ul.card-list {
   background-color: #f1191d;
   border-color: #f1191d;
 }
+.tab-pane a {
+  color: #ff2a2d;
+}
