@@ -28,6 +28,11 @@ _A portfolio website for myself. This site includes information on my: coding pr
 
 * _No known issues_
 
+## Contact Me
+
+_Let me know if you run into any issues or have questions, ideas or concerns:_
+_dolanp1992@gmail.com_
+
 ## License
 
 _MIT_
