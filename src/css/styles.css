@@ -27,6 +27,9 @@ hr {
 .navbar {
   margin-bottom: 1em;
 }
+.nav-item {
+  padding-left: 1em;
+}
 /* About Me Section */
 .aboutMe img {
   float: left;
