@@ -55,6 +55,10 @@ hr {
   font-style: italic;
 }
 /* Projects Section */
+.card-img-top {
+  height: 17vw;
+  object-fit: cover;
+}
 .projects .card {
   margin-bottom: 2em;
 }
