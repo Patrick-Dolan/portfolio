@@ -4,14 +4,16 @@
   <title>Patrick Dolan Portfolio</title>
 </head>
 <body>
-  <div class="container">
+  <div class="container-fluid">
     <a id="homeAnchor"></a>
     <div class="jumbotron">
-      <h1>Patrick Dolan <span class="jumboHeader">Software Developer</span></h1>
+      <div class="container">
+      <h1>Patrick Dolan <span class="jumboHeader">Frontend Web Developer</span></h1>
       <p>Welcome to my portfolio. Below you will find my work, information on my background and my hobbies.</p>
     </div>
+    </div>
     <div class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
+      <div class="container">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -34,285 +36,292 @@
       </div>
     </div>
     <div class="projects">
-      <a id="projectsAnchor"></a>
-      <h2>My Projects</h2>
-      <hr>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-      <!-- GearedUpGaming Repo-->
-      <div class="col">
-        <div class="card bg-dark text-white h-100">
-          <img src="./../assets/images/projects/gearedupgaming.gif" class="card-img-top" alt="A gif of Geared Up Gaming website">
-          <div class="card-body">
-            <h3 class="card-title"><a href="https://patrick-dolan.github.io/gearedupgaming/" target="_blank">GearedUpGaming Website</a></h3>
-            <p class="card-text">GearedUpGaming is a mock news/review website centered on gaming I built when testing out bootstrap and jquery.</p>
-            <p><em>Languages/Technology Used:</em></p>
-            <ul class="card-list">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Bootstrap 4.5.3</li>
-              <li>JQuery 3.6.0</li>
-            </ul>
-            <div class="projectButton">
-              <a href="https://patrick-dolan.github.io/gearedupgaming/" target="_blank" class="btn btn-red btn-sm btn-block">Github Pages</a>
-              <a href="https://github.com/Patrick-Dolan/gearedupgaming" target="_blank" class="btn btn-red btn-sm btn-block">Github Repository</a>
-            </div>
-            <div class="card-footer">
-              <p class="card-text"><small class="text-muted">-No plans to continue development at this time</small></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Mad-libs Repo -->
-      <div class="col">
-        <div class="card bg-dark text-white h-100">
-          <img src="./../assets/images/projects/madlibs-original.gif" class="card-img-top" alt="A gif of mad-libs website">
-          <div class="card-body">
-            <h3 class="card-title"><a href="https://patrick-dolan.github.io/mad-libsV2/" target="_blank">Mad-libs</a></h3>
-            <p class="card-text">A fun little website where you can fill out a form and get back a mad-lib in one of five stories. Coded with <a href="https://github.com/MxZoe" target="_blank">Zoe Weinstein</a>.</p>
-            <p><em>Languages/Technology Used:</em></p>
-            <ul class="card-list">
-              <li>HTML</li>
-              <li>CSS & Bootstrap 4.5.3</li>
-              <li>Javascript & jQuery 3.6.0</li>
-            </ul>
-            <div class="projectButton">
-              <a href="https://patrick-dolan.github.io/mad-libsV2/" target="_blank" class="btn btn-red btn-sm btn-block">Github Pages</a>
-              <a href="https://github.com/Patrick-Dolan/mad-libsV2" target="_blank" class="btn btn-red btn-sm btn-block">Github Repository</a>
-            </div>
-            <div class="card-footer">
-              <p class="card-text"><small class="text-muted">-No plans to continue development at this time</small></p>
+      <div class="container">
+        <a id="projectsAnchor"></a>
+        <h2>My Projects</h2>
+        <hr>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- GearedUpGaming Repo-->
+        <div class="col">
+          <div class="card bg-dark text-white h-100">
+            <img src="./../assets/images/projects/gearedupgaming.gif" class="card-img-top" alt="A gif of Geared Up Gaming website">
+            <div class="card-body">
+              <h3 class="card-title"><a href="https://patrick-dolan.github.io/gearedupgaming/" target="_blank">GearedUpGaming Website</a></h3>
+              <p class="card-text">GearedUpGaming is a mock news/review website centered on gaming I built when testing out bootstrap and jquery.</p>
+              <p><em>Languages/Technology Used:</em></p>
+              <ul class="card-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap 4.5.3</li>
+                <li>JQuery 3.6.0</li>
+              </ul>
+              <div class="projectButton">
+                <a href="https://patrick-dolan.github.io/gearedupgaming/" target="_blank" class="btn btn-red btn-sm btn-block">Github Pages</a>
+                <a href="https://github.com/Patrick-Dolan/gearedupgaming" target="_blank" class="btn btn-red btn-sm btn-block">Github Repository</a>
+              </div>
+              <div class="card-footer">
+                <p class="card-text"><small class="text-muted">-No plans to continue development at this time</small></p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- Galactic Age Calculator Repo -->
-      <div class="col">
-        <div class="card bg-dark text-white h-100">
-          <img src="./../assets/images/projects/galacticagecalculator.gif" class="card-img-top" alt="A gif of the galactic age calculator website">
-          <div class="card-body">
-            <h3 class="card-title"><a href="https://patrick-dolan.github.io/galactic-age-calculator/" target="_blank">Galactic Age Calculator</a></h3>
-            <p class="card-text">This is the first site/app I built using a modern javascript environment using npm and webpack. It calculates how old the user is based on different planets solar years(revolutions around the sun).</p>
-            <p><em>Languages/Technology Used:</em></p>
-            <ul class="card-list">
-              <li>HTML, CSS, & Bootstrap</li>
-              <li>Javascript & jQuery</li>
-              <li>NPM</li>
-            </ul>
-            <div class="projectButton">
-              <a href="https://patrick-dolan.github.io/galactic-age-calculator/" target="_blank" class="btn btn-red btn-sm btn-block">Github Pages</a>
-              <a href="https://github.com/Patrick-Dolan/galactic-age-calculator" target="_blank" class="btn btn-red btn-sm btn-block">Github Repository</a>
-            </div>
-            <div class="card-footer">
-              <p class="card-text"><small class="text-muted">-No plans to continue development at this time</small></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Programming Language Suggester Repo-->
-      <div class="col">
-        <div class="card bg-dark text-white h-100">
-          <img src="./../assets/images/projects/programminglanguagesuggester.gif" class="card-img-top" alt="A gif of the galactic age calculator website">
-          <div class="card-body">
-            <h3 class="card-title"><a href="https://patrick-dolan.github.io/programming-language-suggester/" target="_blank">Programming Language Suggester</a></h3>
-            <p class="card-text">This is a little quiz built largely with jQuery that asks 5 questions and suggests a first programming language to look into based on your answers.</p>
-            <p><em>Languages/Technology Used:</em></p>
-            <ul class="card-list">
-              <li>HTML</li>
-              <li>CSS & Bootstrap</li>
-              <li>Javascript & jQuery</li>
-            </ul>
-            <div class="projectButton">
-              <a href="https://patrick-dolan.github.io/programming-language-suggester/" target="_blank" class="btn btn-red btn-sm btn-block">Github Pages</a>
-              <a href="https://github.com/Patrick-Dolan/programming-language-suggester" target="_blank" class="btn btn-red btn-sm btn-block">Github Repository</a>
-            </div>
-            <div class="card-footer">
-              <p class="card-text"><small class="text-muted">-No plans to continue development at this time</small></p>
+        <!-- Mad-libs Repo -->
+        <div class="col">
+          <div class="card bg-dark text-white h-100">
+            <img src="./../assets/images/projects/madlibs-original.gif" class="card-img-top" alt="A gif of mad-libs website">
+            <div class="card-body">
+              <h3 class="card-title"><a href="https://patrick-dolan.github.io/mad-libsV2/" target="_blank">Mad-libs</a></h3>
+              <p class="card-text">A fun little website where you can fill out a form and get back a mad-lib in one of five stories. Coded with <a href="https://github.com/MxZoe" target="_blank">Zoe Weinstein</a>.</p>
+              <p><em>Languages/Technology Used:</em></p>
+              <ul class="card-list">
+                <li>HTML</li>
+                <li>CSS & Bootstrap 4.5.3</li>
+                <li>Javascript & jQuery 3.6.0</li>
+              </ul>
+              <div class="projectButton">
+                <a href="https://patrick-dolan.github.io/mad-libsV2/" target="_blank" class="btn btn-red btn-sm btn-block">Github Pages</a>
+                <a href="https://github.com/Patrick-Dolan/mad-libsV2" target="_blank" class="btn btn-red btn-sm btn-block">Github Repository</a>
+              </div>
+              <div class="card-footer">
+                <p class="card-text"><small class="text-muted">-No plans to continue development at this time</small></p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- Cupcake Shop Repo-->
-      <div class="col">
-        <div class="card bg-dark text-white h-100">
-          <div class="card-body">
-            <h3 class="card-title"><a href="https://github.com/Patrick-Dolan/cupcakeshop" target="_blank">Cupcake shop Website</a></h3>
-            <p class="card-text">A mock website for a cupcake shop built with my pair <a href="https://github.com/kristykhamsouk" target="_blank">Kristy Khamsouk.</a></p>
-            <p><em>Languages/Technology Used:</em></p>
-            <ul class="card-list">
-              <li>HTML</li>
-              <li>CSS</li>
-            </ul>
-            <div class="projectButton">
-              <a href="https://patrick-dolan.github.io/cupcakeshop/" target="_blank" class="btn btn-red btn-sm btn-block">Github Pages</a>
-              <a href="https://github.com/Patrick-Dolan/cupcakeshop" target="_blank" class="btn btn-red btn-sm btn-block">Github Repository</a>
-            </div>
-            <div class="card-footer">
-              <p class="card-text"><small class="text-muted">-No plans to continue development at this time</small></p>
+        <!-- Galactic Age Calculator Repo -->
+        <div class="col">
+          <div class="card bg-dark text-white h-100">
+            <img src="./../assets/images/projects/galacticagecalculator.gif" class="card-img-top" alt="A gif of the galactic age calculator website">
+            <div class="card-body">
+              <h3 class="card-title"><a href="https://patrick-dolan.github.io/galactic-age-calculator/" target="_blank">Galactic Age Calculator</a></h3>
+              <p class="card-text">This is the first site/app I built using a modern javascript environment using npm and webpack. It calculates how old the user is based on different planets solar years(revolutions around the sun).</p>
+              <p><em>Languages/Technology Used:</em></p>
+              <ul class="card-list">
+                <li>HTML, CSS, & Bootstrap</li>
+                <li>Javascript & jQuery</li>
+                <li>NPM</li>
+              </ul>
+              <div class="projectButton">
+                <a href="https://patrick-dolan.github.io/galactic-age-calculator/" target="_blank" class="btn btn-red btn-sm btn-block">Github Pages</a>
+                <a href="https://github.com/Patrick-Dolan/galactic-age-calculator" target="_blank" class="btn btn-red btn-sm btn-block">Github Repository</a>
+              </div>
+              <div class="card-footer">
+                <p class="card-text"><small class="text-muted">-No plans to continue development at this time</small></p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- My First Webpage Repo -->
-      <div class="col">
-        <div class="card bg-dark text-white h-100">
-          <div class="card-body">
-            <h3 class="card-title"><a href="https://github.com/Patrick-Dolan/my-first-webpage" target="_blank">My First Website</a></h3>
-            <p class="card-text">While technically not my first website this is the one I made using Epicodus's tutorials during the course of the class work.</p>
-            <p><em>Languages/Technology Used:</em></p>
-            <ul class="card-list">
-              <li>HTML</li>
-            </ul>
-            <div class="projectButton">
-              <a href="https://patrick-dolan.github.io/my-first-webpage/" target="_blank" class="btn btn-red btn-sm btn-block">Github Pages</a>
-              <a href="https://github.com/Patrick-Dolan/my-first-webpage" target="_blank" class="btn btn-red btn-sm btn-block">Github Repository</a>
-            </div>
-            <div class="card-footer">
-              <p class="card-text"><small class="text-muted">-No plans to continue development at this time</small></p>
+        <!-- Programming Language Suggester Repo-->
+        <div class="col">
+          <div class="card bg-dark text-white h-100">
+            <img src="./../assets/images/projects/programminglanguagesuggester.gif" class="card-img-top" alt="A gif of the galactic age calculator website">
+            <div class="card-body">
+              <h3 class="card-title"><a href="https://patrick-dolan.github.io/programming-language-suggester/" target="_blank">Programming Language Suggester</a></h3>
+              <p class="card-text">This is a little quiz built largely with jQuery that asks 5 questions and suggests a first programming language to look into based on your answers.</p>
+              <p><em>Languages/Technology Used:</em></p>
+              <ul class="card-list">
+                <li>HTML</li>
+                <li>CSS & Bootstrap</li>
+                <li>Javascript & jQuery</li>
+              </ul>
+              <div class="projectButton">
+                <a href="https://patrick-dolan.github.io/programming-language-suggester/" target="_blank" class="btn btn-red btn-sm btn-block">Github Pages</a>
+                <a href="https://github.com/Patrick-Dolan/programming-language-suggester" target="_blank" class="btn btn-red btn-sm btn-block">Github Repository</a>
+              </div>
+              <div class="card-footer">
+                <p class="card-text"><small class="text-muted">-No plans to continue development at this time</small></p>
+              </div>
             </div>
           </div>
+        </div>
+        <!-- Catfish Repo-->
+        <div class="col">
+          <div class="card bg-dark text-white h-100">
+            <img src="./../assets/images/projects/catfish.gif" class="card-img-top" alt="A gif of the catfish project website">
+            <div class="card-body">
+              <h3 class="card-title"><a href="https://github.com/Patrick-Dolan/Catfish.Solution" target="_blank">Catfish</a></h3>
+              <p class="card-text">This is a tinder-like website for pairing pets for playdates. It includes full CRUD on user profiles and a matching system that favors showing you opportunities to match with pets who have already made a favorable choice when seeing your profile. </p>
+              <p><em>Languages/Technology Used:</em></p>
+              <ul class="card-list">
+                <li>HTML & CSS</li>
+                <li>C# .NET Core</li>
+                <li>JQuery</li>
+              </ul>
+              <div class="projectButton">
+                <a href="https://github.com/Patrick-Dolan/Catfish.Solution" target="_blank" class="btn btn-red btn-sm btn-block">Github Repository</a>
+              </div>
+              <div class="card-footer">
+                <p class="card-text"><small class="text-muted">-No plans to continue development at this time</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- My First Webpage Repo -->
+        <div class="col">
+          <div class="card bg-dark text-white h-100">
+            <div class="card-body">
+              <h3 class="card-title"><a href="https://github.com/Patrick-Dolan/my-first-webpage" target="_blank">My First Website</a></h3>
+              <p class="card-text">While technically not my first website this is the one I made using Epicodus's tutorials during the course of the class work.</p>
+              <p><em>Languages/Technology Used:</em></p>
+              <ul class="card-list">
+                <li>HTML</li>
+              </ul>
+              <div class="projectButton">
+                <a href="https://patrick-dolan.github.io/my-first-webpage/" target="_blank" class="btn btn-red btn-sm btn-block">Github Pages</a>
+                <a href="https://github.com/Patrick-Dolan/my-first-webpage" target="_blank" class="btn btn-red btn-sm btn-block">Github Repository</a>
+              </div>
+              <div class="card-footer">
+                <p class="card-text"><small class="text-muted">-No plans to continue development at this time</small></p>
+              </div>
+            </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <div class="aboutMe">
-      <h2>About Me</h2>
-      <hr>
-      <div class="row">
-        <div class="col-md-12">
-          <img class="img-thumbnail" src="./../assets/images/profilepic.png" alt="A picture of Patrick Dolan.">
-          <p>Hi I'm Patrick Dolan a software developer in training through Epicodus (a programming bootcamp ran out of Portland Oregon). I love building things and found that software development scratches both that itch and the one that has me reading new technology news all the time. I consider myself a bit of a perpetual student so I'm always looking at new and interesting things both technological and pychological. I'm currently looking for a career change and if after you've had a good look at my qualifications below you want to get in contact with me my email address is: <a href="mailto:dolanp1992@gmail.com">dolanp1992@gmail.com</a>.</p>
+      <div class="container">
+        <h2>About Me</h2>
+        <hr>
+        <div class="row">
+          <div class="col-md-12">
+            <img class="img-thumbnail" src="./../assets/images/profilepic.jpg" alt="A picture of Patrick Dolan.">
+            <p>Hi I'm Patrick Dolan a software developer in training through Epicodus (a programming bootcamp ran out of Portland Oregon). I love building things and found that software development scratches both that itch and the one that has me reading new technology news all the time. I consider myself a bit of a perpetual student so I'm always looking at new and interesting things both technological and pychological. I'm currently looking for a career change and if after you've had a good look at my qualifications below you want to get in contact with me my email address is: <a href="mailto:dolanp1992@gmail.com">dolanp1992@gmail.com</a>.</p>
+          </div>
         </div>
       </div>
     </div>
     <div class="backgroundInfo">
-      <a id="backgroundInfoAnchor"></a>
-      <h2>Background Information</h2>
-      <hr>
-      <!-- Why attend Epicodus Section -->
-      <div class="row">
-        <div class="col-md-12">
-          <h3>Why I decided to attend Epicodus</h3>
-          <div class="card">
-            <div class="card-body">
-              <p class="card-text">I have a few reasons for joing Epicodus both personal and professional. They can easily be summed up as so:</p>
-              <ol>
-                <li><strong>I need a career change.</strong> I've been working in the gig economy for a few years now and while its been fun and very nice when it comes to free time I want something more stable for my wife and myself to start our family.</li>
-                <li><strong>While I'm confident in learning on my own the accountability is nice.</strong> Having put up money to complete the program I know I'm not going to get distracted by gig working or other distractions and instead keep my nose in the books so to speak.</li>
-                <li><strong>I have family in the industry.</strong> My family is already in the software development community and they recommended Epicodus to me as a great way to learn as they had heard good things while working with people from Nike.</li>
-              </ol>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Education Section -->
-      <div class="education">
+      <div class="container">
+        <a id="backgroundInfoAnchor"></a>
+        <h2>Background Information</h2>
+        <hr>
+        <!-- Why attend Epicodus Section -->
         <div class="row">
           <div class="col-md-12">
-            <h3>Education</h3>
-              <div class="card-group">
-                <div class="card bg-dark text-white">
-                  <div class="card-body">
-                    <h4 class="card-title">Epidocus</h4>
-                    <p class="card-text">Attending Epicodus's C#/React track where I learn a host of technical and soft skills needed to succeed in the the professional software development world.</p>
-                    <div class="row">
-                      <div class="col-md-6">
-                        <h5>Technical Skills</h5>
-                        <ul>
-                          <li>Git</li>
-                          <li>HTML & CSS</li>
-                          <li>Javascript</li>
-                          <li>C#</li>
-                          <li>React</li>
-                        </ul>
-                      </div>
-                      <div class="col-md-6">
-                        <h5>Soft Skills</h5>
-                        <ul>
-                          <li>Proper Email Communication</li>
-                          <li>Job search Techniques</li>
-                          <li>Career Coaching</li>
-                          <li>Resume, Cover Letter, and LinkedIn Proile Creation</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="card-footer">
-                      <p class="card-text"><small class="text-muted">2021-Present</small></p>
-                    </div>
-                  </div>
-                </div>
-                <div class="card bg-dark text-white">
-                  <div class="card-body">
-                    <h4 class="card-title">Clark Community College</h4>
-                    <p class="card-text">Attended the Computer Support Specialists program. This included training on technical subjects as well as communications training with a focus on end user engagement.</p>
-                    <div class="row">
-                      <div class="col-md-6">
-                        <h5>Technical Skills</h5>
-                        <ul>
-                          <li>Computer Hardware and Software Maintenance</li>
-                          <li>Home and Business Networking Administration</li>
-                          <li>Help Desk administration</li>
-                        </ul>
-                      </div>
-                      <div class="col-md-6">
-                        <h5>Soft Skills</h5>
-                        <ul>
-                          <li>End-user engagement training</li>
-                          <li>Job search Techniques</li>
-                          <li>Small team communications</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="card-footer">
-                      <p class="card-text"><small class="text-muted">2012-2015</small></p>
-                    </div>
-                  </div>
-                </div>
+            <h3>Why I decided to attend Epicodus</h3>
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text">I have a few reasons for joing Epicodus both personal and professional. They can easily be summed up as so:</p>
+                <ol>
+                  <li><strong>I need a career change.</strong> I've been working in the gig economy for a few years now and while its been fun and very nice when it comes to free time I want something more stable for my wife and myself to start our family.</li>
+                  <li><strong>While I'm confident in learning on my own the accountability is nice.</strong> Having put up money to complete the program I know I'm not going to get distracted by gig working or other distractions and instead keep my nose in the books so to speak.</li>
+                  <li><strong>I have family in the industry.</strong> My family is already in the software development community and they recommended Epicodus to me as a great way to learn as they had heard good things while working with people from Nike.</li>
+                </ol>
               </div>
+            </div>
           </div>
         </div>
-      </div>
-      <!-- Job Experience Section -->
-      <div class="row">
-        <div class="col-md-12">
-          <h3>Job Experience</h3>
-          <!-- Freelance Computer Support Card-->
-          <div class="row jobExperience">
+        <!-- Education Section -->
+        <div class="education">
+          <div class="row">
             <div class="col-md-12">
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">Freelance Computer Support</h4>
-                  <p class="card-text">Use various tools to serve customers with quick and efficient PC and network fixes. Jobs vary widely: setting up private networks, replacing computer parts, diagnosing software issues both remotely and locally, etc...</p>
+              <h3>Education</h3>
+                <div class="card-group">
+                  <div class="card bg-dark text-white">
+                    <div class="card-body">
+                      <h4 class="card-title">Epidocus</h4>
+                      <p class="card-text">Attending Epicodus's C#/React track where I learn a host of technical and soft skills needed to succeed in the the professional software development world.</p>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <h5>Technical Skills</h5>
+                          <ul>
+                            <li>Git</li>
+                            <li>HTML & CSS</li>
+                            <li>Javascript</li>
+                            <li>C#</li>
+                            <li>React</li>
+                          </ul>
+                        </div>
+                        <div class="col-md-6">
+                          <h5>Soft Skills</h5>
+                          <ul>
+                            <li>Proper Email Communication</li>
+                            <li>Job search Techniques</li>
+                            <li>Career Coaching</li>
+                            <li>Resume, Cover Letter, and LinkedIn Proile Creation</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card-footer">
+                        <p class="card-text"><small class="text-muted">2021-Present</small></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-dark text-white">
+                    <div class="card-body">
+                      <h4 class="card-title">Clark Community College</h4>
+                      <p class="card-text">Attended the Computer Support Specialists program. This included training on technical subjects as well as communications training with a focus on end user engagement.</p>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <h5>Technical Skills</h5>
+                          <ul>
+                            <li>Computer Hardware and Software Maintenance</li>
+                            <li>Home and Business Networking Administration</li>
+                            <li>Help Desk administration</li>
+                          </ul>
+                        </div>
+                        <div class="col-md-6">
+                          <h5>Soft Skills</h5>
+                          <ul>
+                            <li>End-user engagement training</li>
+                            <li>Job search Techniques</li>
+                            <li>Small team communications</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card-footer">
+                        <p class="card-text"><small class="text-muted">2012-2015</small></p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="card-footer">
-                  <p class="card-text"><small class="text-muted">2015-Present</small></p>
+            </div>
+          </div>
+        </div>
+        <!-- Job Experience Section -->
+        <div class="row">
+          <div class="col-md-12">
+            <h3>Job Experience</h3>
+            <!-- Freelance Computer Support Card-->
+            <div class="row jobExperience">
+              <div class="col-md-12">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Freelance Computer Support</h4>
+                    <p class="card-text">Use various tools to serve customers with quick and efficient PC and network fixes. Jobs vary widely: setting up private networks, replacing computer parts, diagnosing software issues both remotely and locally, etc...</p>
+                  </div>
+                  <div class="card-footer">
+                    <p class="card-text"><small class="text-muted">2015-Present</small></p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <!-- Freelance Artist Card -->
-          <div class="row jobExperience">
-            <div class="col-md-12">
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">Freelance Artist</h4>
-                  <p class="card-text">Designed and produced art assets for private individuals and small companies. Worked mainly with digital media making avatars, emoticons, and other such assets.</p>
-                </div>
-                <div class="card-footer">
-                  <p class="card-text"><small class="text-muted">2015-Present</small></p>
+            <!-- Freelance Artist Card -->
+            <div class="row jobExperience">
+              <div class="col-md-12">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Freelance Artist</h4>
+                    <p class="card-text">Designed and produced art assets for private individuals and small companies. Worked mainly with digital media making avatars, emoticons, and other such assets.</p>
+                  </div>
+                  <div class="card-footer">
+                    <p class="card-text"><small class="text-muted">2015-Present</small></p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <!-- UberEats Driver Card-->
-          <div class="row jobExperience">
-            <div class="col-md-12">
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">UberEats Driver</h4>
-                  <p class="card-text">Delivered both Fast Food and groceries from stores to consumers.</p>
-                </div>
-                <div class="card-footer">
-                  <p class="card-text"><small class="text-muted">2020-Present</small></p>
+            <!-- UberEats Driver Card-->
+            <div class="row jobExperience">
+              <div class="col-md-12">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">UberEats Driver</h4>
+                    <p class="card-text">Delivered both Fast Food and groceries from stores to consumers.</p>
+                  </div>
+                  <div class="card-footer">
+                    <p class="card-text"><small class="text-muted">2020-Present</small></p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -321,35 +330,37 @@
       </div>
     </div>
     <div class="hobbies">
-      <a id="hobbiesAnchor"></a>
-      <h2>Hobbies</h2>
-      <hr>
-      <div class="row">
-        <div class="col-4">
-          <div class="list-group" id="list-tab" role="tablist">
-            <a class="list-group-item list-group-item-action active" id="list-gaming-list" data-bs-toggle="list" href="#list-gaming" role="tab" aria-controls="gaming">Gaming & Streaming</a>
-            <a class="list-group-item list-group-item-action" id="list-reading-list" data-bs-toggle="list" href="#list-reading" role="tab" aria-controls="reading">Reading</a>
-            <a class="list-group-item list-group-item-action" id="list-art-list" data-bs-toggle="list" href="#list-art" role="tab" aria-controls="art">Art</a>
-            <a class="list-group-item list-group-item-action" id="list-piano-list" data-bs-toggle="list" href="#list-piano" role="tab" aria-controls="piano">Piano</a>
+      <div class="container">
+        <a id="hobbiesAnchor"></a>
+        <h2>Hobbies</h2>
+        <hr>
+        <div class="row">
+          <div class="col-4">
+            <div class="list-group" id="list-tab" role="tablist">
+              <a class="list-group-item list-group-item-action active" id="list-gaming-list" data-bs-toggle="list" href="#list-gaming" role="tab" aria-controls="gaming">Gaming & Streaming</a>
+              <a class="list-group-item list-group-item-action" id="list-reading-list" data-bs-toggle="list" href="#list-reading" role="tab" aria-controls="reading">Reading</a>
+              <a class="list-group-item list-group-item-action" id="list-art-list" data-bs-toggle="list" href="#list-art" role="tab" aria-controls="art">Art</a>
+              <a class="list-group-item list-group-item-action" id="list-piano-list" data-bs-toggle="list" href="#list-piano" role="tab" aria-controls="piano">Piano</a>
+            </div>
           </div>
-        </div>
-        <div class="col-8">
-          <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="list-gaming" role="tabpanel" aria-labelledby="list-gaming-list">
-              <p>I've been playing video games since middle school and I still love to play just as much I did back then. I don't get as much time to do it as I might like but when I do I will often stream it as well so I can hang out with friends online. I tend toward playing platformers or action rpg's but I will play just about anything.</p>
-              <img class="img-thumbnail" src="./../assets/images/hobbies/gaming.jpg" alt="A picture of an xbox controller.">
-            </div>
-            <div class="tab-pane fade" id="list-reading" role="tabpanel" aria-labelledby="list-reading-list">
-              <p>I read A LOT. I actually have a Goodreads account <a href="https://www.goodreads.com/user/show/126122045-patrick-dolan" target="_blank">here</a> that you can checkout if you want to see what I've been reading recently. I read a lot of different materials from both fiction and non-fiction but I have a soft spot for a lesser known genre called LITRPG that have to do with people living in digital worlds.</p>
-              <img class="img-thumbnail" src="./../assets/images/hobbies/reading.jpg" alt="A picture of a book.">
-            </div>
-            <div class="tab-pane fade" id="list-art" role="tabpanel" aria-labelledby="list-art-list">
-              <p>I enjoy drawing whether that be traditional materials or digitally. I haven't done much drawing lately but for a space of time I was doing it as freelance artist drawing peoples twitch emotes and avatars and such.</p>
-              <img class="img-thumbnail" src="./../assets/images/hobbies/art.jpg" alt="A picture of a sketchbook.">
-            </div>
-            <div class="tab-pane fade" id="list-piano" role="tabpanel" aria-labelledby="list-piano-list">
-              <p>This is my newest hobby and one I don't know how far I will go with since I seem to be low on time as of late. I enjoy the structured nature of it though, reading music and playing the notes feels a bit like programming sometimes.</p>
-              <img class="img-thumbnail" src="./../assets/images/hobbies/piano.jpg" alt="A picture of someone playing a piano"> 
+          <div class="col-8">
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="list-gaming" role="tabpanel" aria-labelledby="list-gaming-list">
+                <p>I've been playing video games since middle school and I still love to play just as much I did back then. I don't get as much time to do it as I might like but when I do I will often stream it as well so I can hang out with friends online. I tend toward playing platformers or action rpg's but I will play just about anything.</p>
+                <img class="img-thumbnail" src="./../assets/images/hobbies/gaming.jpg" alt="A picture of an xbox controller.">
+              </div>
+              <div class="tab-pane fade" id="list-reading" role="tabpanel" aria-labelledby="list-reading-list">
+                <p>I read A LOT. I actually have a Goodreads account <a href="https://www.goodreads.com/user/show/126122045-patrick-dolan" target="_blank">here</a> that you can checkout if you want to see what I've been reading recently. I read a lot of different materials from both fiction and non-fiction but I have a soft spot for a lesser known genre called LITRPG that have to do with people living in digital worlds.</p>
+                <img class="img-thumbnail" src="./../assets/images/hobbies/reading.jpg" alt="A picture of a book.">
+              </div>
+              <div class="tab-pane fade" id="list-art" role="tabpanel" aria-labelledby="list-art-list">
+                <p>I enjoy drawing whether that be traditional materials or digitally. I haven't done much drawing lately but for a space of time I was doing it as freelance artist drawing peoples twitch emotes and avatars and such.</p>
+                <img class="img-thumbnail" src="./../assets/images/hobbies/art.jpg" alt="A picture of a sketchbook.">
+              </div>
+              <div class="tab-pane fade" id="list-piano" role="tabpanel" aria-labelledby="list-piano-list">
+                <p>This is my newest hobby and one I don't know how far I will go with since I seem to be low on time as of late. I enjoy the structured nature of it though, reading music and playing the notes feels a bit like programming sometimes.</p>
+                <img class="img-thumbnail" src="./../assets/images/hobbies/piano.jpg" alt="A picture of someone playing a piano"> 
+              </div>
             </div>
           </div>
         </div>
@@ -357,7 +368,7 @@
     </div>
     <div class="pageFooter">
       <div class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
+        <div class="container">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
