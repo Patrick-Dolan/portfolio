@@ -36,6 +36,10 @@ hr {
 .nav-item {
   padding-left: 1em;
 }
+.navbar-icon {
+  max-height: 3em;
+  width: auto;
+}
 /* About Me Section */
 .aboutMe img {
   float: left;
