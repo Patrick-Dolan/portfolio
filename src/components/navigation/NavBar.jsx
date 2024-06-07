@@ -8,7 +8,7 @@ function NavBar() {
   const [hidden, setHidden] = useState(false);
 
   const NavBarSpacer = () => {
-    return <div className="min-h-20 mb-4"></div>
+    return <div className="min-h-20"></div>
   }
 
   useEffect(() => {
