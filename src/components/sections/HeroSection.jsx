@@ -7,7 +7,7 @@ function HeroSection() {
     <article className="flex items-center justify-center text-center">
       <div>
         {/* TODO replace placeholder image */}
-        <img src="/assets/sillypic.jpg" alt="" className="mx-auto my-8 rounded-3xl max-w-80" />
+        <img src="/assets/sillypic.jpg" alt="" className="mx-auto my-6 rounded-3xl max-w-80 max-h-80" />
         <div className="space-y-1">
           <p className="text-xl">Hello, my name is</p>
           <h1 className="text-4xl">Patrick Dolan</h1>
