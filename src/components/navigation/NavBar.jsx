@@ -8,7 +8,7 @@ function NavBar() {
   const [hidden, setHidden] = useState(false);
 
   const NavBarSpacer = () => {
-    return <div className="min-h-20"></div>
+    return <div className="min-h-20 bg-primary"></div>
   }
 
   useEffect(() => {
@@ -38,7 +38,7 @@ function NavBar() {
 
   return (
     <>
-      <nav id="nav" className={`bg-primary min-h-20 flex items-center fixed top-0 left-0 right-0 transition-transform duration-100 ${hidden && "-translate-y-full"}`}>
+      <nav id="nav" className={`bg-primary min-h-20 flex items-center fixed top-0 left-0 right-0 transition-transform duration-100 ${hidden && "-translate-y-full"} shadow-md`}>
         <div className="flex justify-between items-center flex-grow px-6 text-white">
           <a href="#header">
             <h1 className="text-lg font-bold">Patrick Dolan</h1>
