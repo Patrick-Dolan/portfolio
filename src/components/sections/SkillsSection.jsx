@@ -15,7 +15,7 @@ function SkillsSection() {
   return (
     <section className="my-20">
       <SectionContainer>
-        <h2 className="text-center text-3xl mb-2">Skills</h2>
+        <h2 className="text-center text-3xl mb-2 font-bold uppercase">Skills</h2>
         <p className="text-center text-sm mb-12">Proficient in HTML, CSS, JavaScript, React, and Beyond</p>
         <div className="grid grid-cols-2 gap-6 justify-items-center">
           <SkillCard iconComponent={<HTMLIcon />} title="HTML5" />
