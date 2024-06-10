@@ -6,6 +6,8 @@ import FirebaseIcon from "../../assets/skills-icons/FirebaseIcon";
 import GitHubIcon from "../../assets/skills-icons/GitHubIcon";
 import GitIcon from "../../assets/skills-icons/GitIcon";
 import TailwindCSSIcon from "../../assets/skills-icons/TailwindCSSIcon";
+import JestIcon from "../../assets/skills-icons/JestIcon";
+import ViteIcon from "../../assets/skills-icons/ViteIcon";
 import SectionContainer from "../shared/SectionContainer";
 import SkillCard from "../skills/SkillCard";
 
@@ -24,6 +26,8 @@ function SkillsSection() {
           <SkillCard iconComponent={<GitIcon />} title="Git" />
           <SkillCard iconComponent={<GitHubIcon />} title="GitHub" />
           <SkillCard iconComponent={<TailwindCSSIcon />} title="Tailwind CSS" />
+          <SkillCard iconComponent={<JestIcon />} title="Jest" />
+          <SkillCard iconComponent={<ViteIcon />} title="Vite" />
         </div>
       </SectionContainer>
     </section>
