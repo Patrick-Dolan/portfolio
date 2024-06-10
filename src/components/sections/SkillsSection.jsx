@@ -11,7 +11,7 @@ import SkillCard from "../skills/SkillCard";
 
 function SkillsSection() {
   return (
-    <article className="my-20">
+    <section className="my-20">
       <SectionContainer>
         <h2 className="text-center text-3xl mb-2">Skills</h2>
         <p className="text-center text-sm mb-12">Proficient in HTML, CSS, JavaScript, React, and Beyond</p>
@@ -26,7 +26,7 @@ function SkillsSection() {
           <SkillCard iconComponent={<TailwindCSSIcon />} title="Tailwind CSS" />
         </div>
       </SectionContainer>
-    </article>
+    </section>
   )
 }
 
