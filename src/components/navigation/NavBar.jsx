@@ -41,7 +41,7 @@ function NavBar() {
       <nav id="nav" className={`bg-primary min-h-20 flex items-center fixed top-0 left-0 right-0 transition-transform duration-100 ${hidden && "-translate-y-full"} shadow-md`}>
         <div className="flex justify-between items-center flex-grow px-6 text-white">
           <a href="#header">
-            <h1 className="text-lg font-bold">Patrick Dolan</h1>
+            <h1 className="text-lg font-bold"><span className="text-secondary">&lt;</span>Patrick Dolan <span className="text-secondary">/&gt;</span></h1>
           </a>
           <button onClick={() => setMobileNavOpen(true)}>
             <HamburgerIcon />
