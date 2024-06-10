@@ -1,13 +1,15 @@
+import NavBar from "./components/navigation/NavBar";
 import Footer from "./components/sections/Footer";
+import HeroSection from "./components/sections/HeroSection";
 
 function App() {
   return (
     <div className="flex flex-col min-h-screen">
-      <header>
-        <h1 className="text-center text-4xl">Patrick Dolan</h1>
+      <header id="header">
+        <NavBar />
       </header>
       <main className="flex-grow">
-        <p className="text-center">Main content.</p>
+        <HeroSection />
       </main>
       <Footer />
     </div>
