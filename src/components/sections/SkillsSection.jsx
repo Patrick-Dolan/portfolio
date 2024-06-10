@@ -22,10 +22,10 @@ function SkillsSection() {
           <SkillCard iconComponent={<CSSIcon />} title="CSS3" />
           <SkillCard iconComponent={<JavaScriptIcon />} title="JavaScript" />
           <SkillCard iconComponent={<ReactIcon />} title="React" />
+          <SkillCard iconComponent={<TailwindCSSIcon />} title="Tailwind CSS" />
           <SkillCard iconComponent={<FirebaseIcon />} title="Firebase" />
           <SkillCard iconComponent={<GitIcon />} title="Git" />
           <SkillCard iconComponent={<GitHubIcon />} title="GitHub" />
-          <SkillCard iconComponent={<TailwindCSSIcon />} title="Tailwind CSS" />
           <SkillCard iconComponent={<JestIcon />} title="Jest" />
           <SkillCard iconComponent={<ViteIcon />} title="Vite" />
         </div>
