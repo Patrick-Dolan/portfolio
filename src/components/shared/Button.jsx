@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 function Button({ text, type, onClick, className, icon }) {
   return (
     <button 
-      className={`uppercase tracking-wider font-bold min-w-40 text-sm py-4 max-h-12 flex items-center justify-center text-white bg-secondary rounded-xl ${className}`} 
+      className={`uppercase tracking-wider font-bold min-w-52 text-sm py-4 max-h-12 flex items-center justify-center text-white bg-secondary rounded-xl hover:bg-secondary-light ${className}`} 
       type={type} 
       onClick={onClick}
     >
