@@ -27,7 +27,7 @@ function ProjectsSection() {
   ];
 
   return (
-    <section id="projects" className="py-20 bg-primary text-white">
+    <section id="projects" className="py-24 bg-primary text-white">
       <SectionContainer>
         <h2 className="text-center text-3xl mb-2 font-bold uppercase">Projects</h2>
         <p className="text-center text-sm mb-8">From Concept to Completion: My Work Portfolio</p>
