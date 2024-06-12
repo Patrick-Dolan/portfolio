@@ -2,6 +2,8 @@ import { useRef, useState } from "react";
 import SectionContainer from "../shared/SectionContainer";
 import emailjs from '@emailjs/browser';
 import Button from "../shared/Button";
+import SendIcon from "../../assets/Icons/SendIcon";
+import ProgressIcon from "../../assets/Icons/ProgressIcon";
 
 function ContactSection() {
   const form = useRef();
@@ -15,14 +17,14 @@ function ContactSection() {
 
   function sendEmail(e) {
     e.preventDefault();
-    setEmailStatus(prev => ({...prev, error: false, errorMessage: ""}));
+    setEmailStatus(prev => ({...prev, sending: true, error: false, errorMessage: ""}));
 
     emailjs.sendForm(import.meta.env.VITE_EMAILJS_EMAILSERVICEID, import.meta.env.VITE_EMAILJS_EMAILTEMPLATEID, e.target, import.meta.env.VITE_EMAILJS_EMAILPUBLICKEY)
       .then(() => {
-        setEmailStatus(prev => ({...prev, success: true}));
+        setEmailStatus(prev => ({...prev, sending: false, success: true}));
         e.target.reset();
       }, (e) => {
-        setEmailStatus(prev => ({...prev, error: true, errorMessage: e.text || "Oops... An error occurred while sending the email. If there error persists, please try again later, or contact me through Linkedin/GitHub."}));
+        setEmailStatus(prev => ({...prev, sending: false, error: true, errorMessage: e.text || "Oops... An error occurred while sending the email. If there error persists, please try again later, or contact me through Linkedin/GitHub."}));
       });
   }
   console.log(emailStatus)
@@ -69,7 +71,7 @@ function ContactSection() {
               </div>
               {emailStatus.error && <p className="text-red-400 text-sm">{emailStatus.errorMessage}</p>}
               {emailStatus.success && <p className="text-green-400 text-sm">{emailStatus.successMessage}</p>}
-              <Button text="Send" type="submit" />
+              <Button text={emailStatus.sending ? "Sending..." : "Sent"} type="submit" icon={emailStatus.sending ? <ProgressIcon /> : <SendIcon />} />
             </div>
           </form>
         </div>
