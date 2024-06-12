@@ -5,7 +5,7 @@ function AboutSection() {
     <section id="about" className="py-24">
       <SectionContainer>
         <img src="/assets/sillypic.jpg" alt="Patrick in a duck costume with hands on hips." className="mx-auto mb-10 rounded-3xl  shadow-xl" />
-        <div className="border border-primary-light rounded-xl px-4 py-8">
+        <div className="border border-secondary-light rounded-xl px-4 py-8">
           <h2 className="text-center text-3xl mb-2 font-bold uppercase">About Me</h2>
           <p className="text-center text-sm mb-4">A Little Bit About Myself</p>
           <div className="space-y-3 text-center">
