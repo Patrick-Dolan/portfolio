@@ -7,27 +7,25 @@ import GitHubIcon from "../../assets/skills-icons/GitHubIcon";
 import GitIcon from "../../assets/skills-icons/GitIcon";
 import TailwindCSSIcon from "../../assets/skills-icons/TailwindCSSIcon";
 import JestIcon from "../../assets/skills-icons/JestIcon";
-import ViteIcon from "../../assets/skills-icons/ViteIcon";
 import SectionContainer from "../shared/SectionContainer";
 import SkillCard from "../skills/SkillCard";
 
 function SkillsSection() {
   return (
-    <section className="my-20">
+    <section className="py-24">
       <SectionContainer>
         <h2 className="text-center text-3xl mb-2 font-bold uppercase">Skills</h2>
         <p className="text-center text-sm mb-12">Proficient in HTML, CSS, JavaScript, React, and Beyond</p>
-        <div className="grid grid-cols-2 gap-6 justify-items-center">
+        <div className="grid grid-cols-3 gap-x-4 gap-y-8 justify-items-center">
           <SkillCard iconComponent={<HTMLIcon />} title="HTML5" />
           <SkillCard iconComponent={<CSSIcon />} title="CSS3" />
           <SkillCard iconComponent={<JavaScriptIcon />} title="JavaScript" />
           <SkillCard iconComponent={<ReactIcon />} title="React" />
-          <SkillCard iconComponent={<TailwindCSSIcon />} title="Tailwind CSS" />
+          <SkillCard iconComponent={<TailwindCSSIcon />} title="Tailwind" />
           <SkillCard iconComponent={<FirebaseIcon />} title="Firebase" />
           <SkillCard iconComponent={<GitIcon />} title="Git" />
           <SkillCard iconComponent={<GitHubIcon />} title="GitHub" />
           <SkillCard iconComponent={<JestIcon />} title="Jest" />
-          <SkillCard iconComponent={<ViteIcon />} title="Vite" />
         </div>
       </SectionContainer>
     </section>
