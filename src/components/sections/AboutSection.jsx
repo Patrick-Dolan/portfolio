@@ -10,7 +10,7 @@ function AboutSection() {
           <p className="text-center text-sm mb-4">A Little Bit About Myself</p>
           <div className="space-y-3 text-center">
             <p>Hi, I&apos;m Patrick. I began my web development journey in 2021, though my passion for technology started in childhood with my first video game. This early fascination led me to freelance in computer support and digital art, building and repairing systems, and creating assets for online creators and small businesses.</p>
-            <p>Diving into web development, I discovered an endless enthusiasm for building useful and engaging websites. Currently, I teach full stack web development at Fidgetech, helping adults with autism develop their coding skills.</p>
+            <p>Diving into web development, I discovered an endless enthusiasm for building useful and engaging websites. Currently, I teach full stack web development at Fidgetech, helping autistic adults develop their coding skills.</p>
           </div>
         </div>
       </SectionContainer>
