@@ -23,11 +23,11 @@ function ContactSection() {
       .then(() => {
         setEmailStatus(prev => ({...prev, sending: false, success: true}));
         e.target.reset();
-      }, (e) => {
-        setEmailStatus(prev => ({...prev, sending: false, error: true, errorMessage: e.text || "Oops... An error occurred while sending the email. If there error persists, please try again later, or contact me through Linkedin/GitHub."}));
+      }, (emailError) => {
+        setEmailStatus(prev => ({...prev, sending: false, error: true, errorMessage: emailError.text || "Oops... An error occurred while sending the email. If there error persists, please try again later, or contact me through Linkedin/GitHub."}));
       });
   }
-  console.log(emailStatus)
+
   return (
     <section id="contact" className="py-24 bg-primary text-white">
       <SectionContainer>
