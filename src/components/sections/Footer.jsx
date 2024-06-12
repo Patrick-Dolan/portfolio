@@ -10,8 +10,8 @@ function Footer() {
           <p className="font-bold text-2xl">Patrick Dolan</p>
         </a>
         <ul className="uppercase text-sm my-6 flex justify-center gap-6">
-          <li><a href="#about" className="tracking-widest hover:text-secondary">About</a></li>
           <li><a href="#projects" className="tracking-widest hover:text-secondary">Projects</a></li>
+          <li><a href="#about" className="tracking-widest hover:text-secondary">About</a></li>
           <li><a href="#contact" className="tracking-widest hover:text-secondary">Contact</a></li>
         </ul>
         <hr className="border-secondary-light opacity-50" />

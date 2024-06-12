@@ -57,8 +57,8 @@ function NavBar() {
                 </button>
               </div>
               <ul className="ml-8 space-y-4">
-                <li><a className="uppercase text-lg font-medium" onClick={() => setMobileNavOpen(false)} href="#about">About</a></li>
                 <li><a className="uppercase text-lg font-medium" onClick={() => setMobileNavOpen(false)} href="#projects">Projects</a></li>
+                <li><a className="uppercase text-lg font-medium" onClick={() => setMobileNavOpen(false)} href="#about">About</a></li>
                 <li><a className="uppercase text-lg font-medium" onClick={() => setMobileNavOpen(false)} href="#contact">Contact</a></li>
               </ul>
             </div>
