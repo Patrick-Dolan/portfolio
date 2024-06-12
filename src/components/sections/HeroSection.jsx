@@ -5,7 +5,7 @@ import SectionContainer from "../shared/SectionContainer";
 
 function HeroSection() {
   return (
-    <section className="bg-primary py-10">
+    <section id="hero-section" className="bg-primary py-10">
       <SectionContainer>
         <div className="flex items-center justify-center text-center text-white">
           <div>
