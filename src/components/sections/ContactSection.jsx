@@ -35,7 +35,7 @@ function ContactSection() {
           <h2 className="text-center text-3xl mb-2 font-bold uppercase">Contact Me</h2>
           <p className="text-center text-sm mb-8">Let&apos;s Connect!</p>
           <form ref={form} onSubmit={sendEmail}>
-            <div className="grid grid-cols-1 gap-y-4 text-black">
+            <div className="grid grid-cols-1 gap-4 text-black md:grid-cols-2">
               <div className="grid grid-cols-1 gap-y-1">
                 <label htmlFor="name" className="block text-sm font-medium text-white">Name<span className="text-red-400">*</span></label>
                 <input
@@ -58,7 +58,7 @@ function ContactSection() {
                   required
                 />
               </div>
-              <div className="grid grid-cols-1 gap-y-1">
+              <div className="grid grid-cols-1 gap-y-1 md:col-span-2">
                 <label htmlFor="message" className="block text-sm font-medium text-white">Message<span className="text-red-400">*</span></label>
                 <textarea
                   id="message"
@@ -69,9 +69,14 @@ function ContactSection() {
                   required
                 />
               </div>
-              {emailStatus.error && <p className="text-red-400 text-sm">{emailStatus.errorMessage}</p>}
-              {emailStatus.success && <p className="text-green-400 text-sm">{emailStatus.successMessage}</p>}
-              <Button text={emailStatus.sending ? "Sending..." : "Sent"} type="submit" icon={emailStatus.sending ? <ProgressIcon /> : <SendIcon />} />
+              {emailStatus.error && <p className="text-red-400 text-sm md:col-span-2">{emailStatus.errorMessage}</p>}
+              {emailStatus.success && <p className="text-green-400 text-sm md:col-span-2">{emailStatus.successMessage}</p>}
+              <Button 
+                text={emailStatus.sending ? "Sending..." : "Send"} 
+                type="submit" 
+                icon={emailStatus.sending ? <ProgressIcon /> : <SendIcon />} 
+                className="md:col-span-2"
+              />
             </div>
           </form>
         </div>
