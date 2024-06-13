@@ -15,10 +15,10 @@ function HeroSection() {
               <h1 className="text-4xl">Patrick Dolan</h1>
               <p className="text-xl">I&apos;m a Frontend Developer</p>
             </div>
-            <p className="text-sm mt-4 mb-6 max-w-screen-sm">I build digital experiences with the power of code and problem-solving. When I&apos;m not writing code, I&apos;m usually getting lost in a good book.</p>
-            <div className="space-y-2">
-              <Button text="Contact Me" type="button" className="mx-auto" icon={<MailIcon height="18px" width="18px" />}/>
-              <Button text="Resume" type="button" className="mx-auto" icon={<DescriptionIcon height="18px" width="18px" />}/>
+            <p className="text-sm mt-4 mb-6 max-w-screen-sm md:max-w-125">I build digital experiences with the power of code and problem-solving. When I&apos;m not writing code, I&apos;m usually getting lost in a good book.</p>
+            <div className="flex flex-col gap-4 md:flex-row md:justify-center">
+              <Button text="Contact Me" type="button" icon={<MailIcon height="18px" width="18px" />}/>
+              <Button text="Resume" type="button" icon={<DescriptionIcon height="18px" width="18px" />}/>
             </div>
           </div>
         </div>
