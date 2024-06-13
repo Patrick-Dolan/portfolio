@@ -31,7 +31,7 @@ function ContactSection() {
   return (
     <section id="contact" className="py-24 bg-primary text-white">
       <SectionContainer>
-        <div className="bg-primary-light rounded-xl p-6 shadow-xl">
+        <div className="bg-primary-light rounded-xl p-6 shadow-xl lg:max-w-172 lg:mx-auto">
           <h2 className="text-center text-3xl mb-2 font-bold uppercase">Contact Me</h2>
           <p className="text-center text-sm mb-8">Let&apos;s Connect!</p>
           <form ref={form} onSubmit={sendEmail}>
