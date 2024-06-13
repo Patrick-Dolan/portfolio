@@ -51,9 +51,9 @@ function NavBar() {
   return (
     <>
       <nav id="nav" className={`bg-primary min-h-20 flex items-center fixed top-0 left-0 right-0 transition-transform duration-100 ${hidden && "-translate-y-full"} shadow-md`}>
-        <div className="flex justify-between items-center flex-grow px-6 text-white md:px-0 md:max-w-172 md:mx-auto">
+        <div className="flex justify-between items-center flex-grow px-6 text-white md:px-0 md:max-w-172 md:mx-auto lg:max-w-277">
           <a href="#header">
-            <h1 className="text-lg font-bold md:text-xl"><span className="text-secondary">&lt;</span>Patrick Dolan <span className="text-secondary">/&gt;</span></h1>
+            <h1 className="text-lg font-bold md:text-xl lg:text-2xl"><span className="text-secondary">&lt;</span>Patrick Dolan <span className="text-secondary">/&gt;</span></h1>
           </a>
           {showSmallNav 
             ? (
@@ -63,9 +63,9 @@ function NavBar() {
             )
             :(
               <ul className="text-white flex gap-10">
-                <li><a className="uppercase tracking-widest hover:text-secondary-light" href="#projects">Projects</a></li>
-                <li><a className="uppercase tracking-widest hover:text-secondary-light" href="#about">About</a></li>
-                <li><a className="uppercase tracking-widest hover:text-secondary-light" href="#contact">Contact</a></li>
+                <li><a className="uppercase tracking-widest hover:text-secondary-light hover:underline" href="#projects">Projects</a></li>
+                <li><a className="uppercase tracking-widest hover:text-secondary-light hover:underline" href="#about">About</a></li>
+                <li><a className="uppercase tracking-widest hover:text-secondary-light hover:underline" href="#contact">Contact</a></li>
               </ul>
             )
           }
