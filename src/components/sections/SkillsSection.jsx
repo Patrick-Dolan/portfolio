@@ -16,7 +16,7 @@ function SkillsSection() {
       <SectionContainer>
         <h2 className="text-center text-3xl mb-2 font-bold uppercase">Skills</h2>
         <p className="text-center text-sm mb-12 md:text-base">Proficient in HTML, CSS, JavaScript, React, and Beyond</p>
-        <div className="grid grid-cols-3 gap-x-4 gap-y-8 justify-items-center">
+        <div className="grid grid-cols-3 gap-x-4 gap-y-8 justify-items-center lg:grid-cols-9">
           <SkillCard iconComponent={<HTMLIcon />} title="HTML5" />
           <SkillCard iconComponent={<CSSIcon />} title="CSS3" />
           <SkillCard iconComponent={<JavaScriptIcon />} title="JavaScript" />
