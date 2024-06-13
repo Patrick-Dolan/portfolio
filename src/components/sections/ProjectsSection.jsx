@@ -39,7 +39,7 @@ function ProjectsSection() {
             <ProjectCard 
               key={index} 
               project={project}
-              className={index === 0 && projects.length % 2 !== 0 ? "md:col-span-2 md:h-150 md:max-w-125" : ""}
+              className={index === 0 && projects.length % 2 !== 0 ? "md:col-span-2 md:h-150 md:min-w-172" : ""}
             />
           ))}
         </div>
