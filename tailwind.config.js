@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        "lg": "1440px",
+      },
       backgroundImage: {
         "audiophile-card": "url('/assets/projects/audiophile-ecommerce/audiophile-card.jpg')",
         "designo-card": "url('/assets/projects/designo-company/designo-pattern.svg')",
@@ -23,6 +26,7 @@ export default {
         "125": "31.25rem", // 500px @ 16px base font size
         "150": "37.5rem", // 600px @ 16px base font
         "172": "43rem", // 688px @ 16px base font size
+        "277": "69.25rem", // 1108px @ 16px base font size
       }
     },
   },
