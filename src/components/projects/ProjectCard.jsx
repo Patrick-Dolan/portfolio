@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-// import Button from "../shared/Button";
 import WebIcon from "../../assets/Icons/WebIcon";
 import GitHubIcon from "../../assets/Icons/GitHubIcon";
 
