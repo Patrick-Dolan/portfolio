@@ -9,7 +9,7 @@ function ProjectCard({ project }) {
   return (
     <article className={`flex flex-col justify-end text-center shadow-lg max-w-87.5 h-125 bg-white bg-cover bg-no-repeat ${backgroundClass}`}>
       <img src={logoPath} alt={`${title} logo picture`} className="m-auto max-w-52" />
-      <div className="px-6 py-8 bg-primary-light bg-opacity-50 backdrop-blur-md">
+      <div className="px-6 py-8 bg-primary-light bg-opacity-80">
         <h3 className="text-xl mb-3 font-bold">{title}</h3>
         <p>{description}</p>
         <div className="flex justify-between mt-6">
