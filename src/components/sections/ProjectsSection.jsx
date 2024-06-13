@@ -6,7 +6,7 @@ function ProjectsSection() {
     { 
       title: "Audiophile E-Commerce Website", 
       description: "An e-commerce website for purchasing high quality audio equipment.", 
-      backgroundClass: "bg-audiophile-card bg-right",
+      backgroundClass: "bg-audiophile-card bg-right md:bg-left",
       logoPath: "/assets/projects/audiophile-ecommerce/audiophile-logo.svg",
       liveURL: "https://patrick-dolan.github.io/audiophile-ecommerce-website/",
       codeURL: "https://github.com/Patrick-Dolan/audiophile-ecommerce-website",
@@ -33,12 +33,13 @@ function ProjectsSection() {
     <section id="projects" className="py-24 bg-primary text-white">
       <SectionContainer>
         <h2 className="text-center text-3xl mb-2 font-bold uppercase">Projects</h2>
-        <p className="text-center text-sm mb-8">From Concept to Completion: My Work Portfolio</p>
-        <div className="flex flex-col items-center gap-10">
+        <p className="text-center text-sm mb-8 md:text-base">From Concept to Completion: My Work Portfolio</p>
+        <div className="grid grid-cols-1 justify-items-center gap-10 md:grid-cols-2">
           {projects.map((project, index) => (
             <ProjectCard 
               key={index} 
               project={project}
+              className={index === 0 && projects.length % 2 !== 0 ? "md:col-span-2 md:h-150 md:max-w-125" : ""}
             />
           ))}
         </div>
