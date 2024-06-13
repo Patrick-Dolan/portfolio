@@ -21,6 +21,7 @@ export default {
         "72": "18rem", // 288px @ 16px base font size
         "87.5": "21.875rem", // 350px @ 16px base font size
         "125": "31.25rem", // 500px @ 16px base font size
+        "172": "43rem", // 688px @ 16px base font size
       }
     },
   },
