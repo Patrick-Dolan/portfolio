@@ -2,9 +2,9 @@ import PropTypes from "prop-types";
 
 function SkillCard({ iconComponent, title }) {
   return (
-    <div className="space-y-2 w-20">
+    <div className="space-y-2 w-20 md:w-28">
       {iconComponent}
-      <p className="text-center font-medium">{title}</p>
+      <p className="text-center font-medium md:text-xl">{title}</p>
     </div>
   )
 }
