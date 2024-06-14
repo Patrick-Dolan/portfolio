@@ -6,7 +6,7 @@ function ProjectCard({ project, className = ""}) {
   const { backgroundClass, title, description, liveURL, codeURL, logoPath } = project;
 
   return (
-    <article className={`flex flex-col justify-end text-center shadow-lg max-w-87.5 h-125 bg-white bg-cover bg-no-repeat ${backgroundClass} ${className}`}>
+    <article className={`flex flex-col justify-end text-center shadow-lg max-w-87.5 h-125 bg-white bg-cover bg-no-repeat ${backgroundClass} ${className} hover:scale-105 hover:border-2 hover:border-secondary`}>
       <img src={logoPath} alt={`${title} logo picture`} className="m-auto max-w-52" />
       <div className="px-6 py-8 bg-primary-light bg-opacity-80 h-60 flex flex-col justify-between">
         <div>
