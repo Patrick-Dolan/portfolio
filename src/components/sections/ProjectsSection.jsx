@@ -6,7 +6,7 @@ function ProjectsSection() {
     { 
       title: "Audiophile E-Commerce Website", 
       description: "An e-commerce website for purchasing high quality audio equipment.", 
-      backgroundClass: "bg-audiophile-card bg-right md:bg-left lg:bg-center",
+      backgroundClass: "bg-audiophile-card bg-right",
       logoPath: "/assets/projects/audiophile-ecommerce/audiophile-logo.svg",
       liveURL: "https://patrick-dolan.github.io/audiophile-ecommerce-website/",
       codeURL: "https://github.com/Patrick-Dolan/audiophile-ecommerce-website",
@@ -29,6 +29,8 @@ function ProjectsSection() {
     },
   ];
 
+  const mainCardStyles = "md:col-span-2 md:h-150 md:min-w-172 md:bg-left lg:bg-center lg:col-span-1 lg:min-w-0 lg:h-125";
+
   return (
     <section id="projects" className="py-24 bg-primary text-white">
       <SectionContainer>
@@ -39,7 +41,7 @@ function ProjectsSection() {
             <ProjectCard 
               key={index} 
               project={project}
-              className={index === 0 && projects.length % 2 !== 0 ? "md:col-span-2 md:h-150 md:min-w-172 lg:col-span-1 lg:min-w-0  lg:h-125" : ""}
+              className={index === 0 && projects.length % 2 !== 0 ? mainCardStyles : ""}
             />
           ))}
         </div>
